@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+</head>
+<body>
+    <div>
+        <h1>Hello @ViewData["Nom"] @ViewBag.prenom</h1>
+        <h3>Voici la liste des pages accessibles : </h3>
+        <ul>
+            <li>@ViewBag.urlListeClient</li>
+            <li>liste des clients</li>
+            <li>Trouvé</li>
+            <li>Non Trouvé</li>
+            <li>Calculateur</li>
+            <li>Error</li>
+        </ul>
+    </div>
+</body>
+</html>
